@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML and TailwindCss Practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section>
-        <nav>
+<body class ="font-family: Open Sans, sans-serif">
+    <section class ="px-6 py-8">  <!-- This is padding x and y --> 
+        <nav class ="flex justify-between items-center">
+            <div> <!-- Left Side -->
+                <a href="#">
+                    <img src="./images/AppleCom.png" alt="Apple dotcom" width="165" height="16">
+                </a>
+            </div>
 
-            <a href="#">
-                <img src="./images/AppleCom.png" alt="Apple dotcom">
-            </a>
-
+            <div> <!-- Right Side -->
+                <a href="#" class="text-xs font-bold uppercase">Home Page</a> 
+                <a href="#"class ="bg-blue-500 ml-3 rounded-full text-xs font-semi-bold text-white uppercase py-3 px-5">Subscribe for Updates</a>
+            </div>
         </nav>
+        <!-- Header -->
+         <!-- A complete guide to building a website with Tailwind CSS and Apple's design guidelines-->
+        <header class ="mt-10 text-center">
+            <div class="max-w-4xl mx-auto">
+                    <h1 class ="text-4xl">
+                        <span class ="text-blue-500">Tailwind UI</span> with Apple from Scratch
+                    </h1>
+                    <h2 class="inline-flex items-center justify-center mx-auto mt-2">
+                        by Jude Rafael S. Alayacyac
+                    </h2>
+            </div>
+
+        </header>
 
         <main>
 
